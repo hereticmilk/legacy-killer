@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Token Admin Panel</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Color Token Admin Panel</h1>
+  <form id="add-token-form">
+    <input type="text" id="name" placeholder="Token name" required>
+    <input type="number" id="lightness" placeholder="Lightness" step="any" required>
+    <input type="number" id="chroma" placeholder="Chroma" step="any" required>
+    <input type="number" id="hue" placeholder="Hue" step="any" required>
+    <input type="number" id="contrast_ratio" placeholder="Contrast ratio" step="any" required>
+    <button type="submit">Add Color Token</button>
+  </form>
+  <table id="token-table">
+    <tr>
+      <th>Name</th>
+      <th>Lightness</th>
+      <th>Chroma</th>
+      <th>Hue</th>
+      <th>Contrast Ratio</th>
+    </tr>
+  </table>
+  <script src="/static/admin.js"></script>
+</body>
+</html>

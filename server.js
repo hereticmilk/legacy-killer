@@ -6,7 +6,6 @@ const chroma = require('chroma-js');
 const app = express();
 const port = 3000;
 
-
 app.use(express.json()); // for parsing application/json
 
 app.get('/', (req, res) => {

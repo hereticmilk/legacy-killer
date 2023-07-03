@@ -2,16 +2,26 @@
 <html>
   <head>
     <title>Token Matcher</title>
+    <style>
+      #color-preview, #token-preview {
+        width: 16px;
+        height: 16px;
+        border: 1px solid #000;
+        border-radius: 4px;
+      }
+    </style>
   </head>
   <body>
     <h1>Color Token Matcher</h1>
     <form id="color-form">
       <input type="text" id="hex-input" placeholder="Enter a HEX color code" required>
-      <button type="submit">Match Token</button>
+      <button type="submit">Match!</button>
     </form>
-    <h2>Matching Token</h2>
+    <h4>Input</h4>
+    <div id="color-preview"></div> 
+    <h4>Output</h4>
     <p id="token-name"></p>
-    <p id="error-message" style="color: red;"></p>
+    <div id="token-preview"></div> 
     <script src="/static/client.js"></script>
   </body>
 </html>

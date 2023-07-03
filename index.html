@@ -2,8 +2,9 @@
 <html>
   <head>
     <title>Token Matcher</title>
+    <link href="https://cdn.tailwindcss.com/2.2.19/tailwind.min.css" rel="stylesheet">
     <style>
-      #color-preview, #token-preview {
+      .color-preview {
         width: 16px;
         height: 16px;
         border: 1px solid #000;
@@ -12,16 +13,49 @@
     </style>
   </head>
   <body>
-    <h1>Color Token Matcher</h1>
-    <form id="color-form">
-      <input type="text" id="hex-input" placeholder="Enter a HEX color code" required>
-      <button type="submit">Match!</button>
-    </form>
-    <h4>Input</h4>
-    <div id="color-preview"></div> 
-    <h4>Output</h4>
-    <p id="token-name"></p>
-    <div id="token-preview"></div> 
+    <div class="container mx-auto p-6">
+      <h1 class="text-4xl mb-6">Color Token Matcher</h1>
+      <div class="flex mb-4">
+        <div class="w-8/12">
+          <h4 class="text-lg">Enter a HEX color code</h4>
+          <form id="color-form" class="flex">
+            <input type="text" id="hex-input" placeholder="Enter a HEX color code" required class="border border-gray-300 rounded px-4 py-2 mr-2">
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white rounded px-4 py-2">Match!</button>
+          </form>
+        </div>
+      </div>
+      <div class="flex mt-4">
+        <div class="w-6/12">
+          <h4 class="text-lg">Input</h4>
+          <div id="color-preview" class="color-preview"></div>
+        </div>
+        <div class="w-6/12">
+          <h4 class="text-lg">Output</h4>
+          <p id="token-name" class="fw-bold"></p>
+          <div id="token-preview" class="w-16 h-16 border border-dark rounded"></div>
+        </div>
+      </div>
+    </div>
     <script src="/static/client.js"></script>
+    <script>
+      document.getElementById('color-form').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const hexInput = document.getElementById('hex-input');
+        const tokenName = document.getElementById('token-name');
+        
+        const response = await fetch(`/convert/${hexInput.value.replace('#', '')}`);
+        const color = await response.json();
+        
+        document.getElementById('color-preview').style.backgroundColor = `#${hexInput.value.replace('#', '')}`;
+        
+        const response2 = await fetch(`/match/${color.lightness}/${color.chroma}/${color.hue}/${color.contrast_ratio}`);
+        const token = await response2.json();
+        
+        tokenName.textContent = "$color-core-" + token.name.replace(/\s+/g, "-");
+        
+        document.getElementById('token-preview').style.backgroundColor = token.hex;
+      });
+    </script>
   </body>
 </html>

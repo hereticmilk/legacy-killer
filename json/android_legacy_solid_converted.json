@@ -1,0 +1,479 @@
+{
+  "red": {
+    "value": "#da4931",
+    "oklch": {
+      "lightness": 0.6049478848644132,
+      "chroma": 0.18539017465375163,
+      "hue": 31.940950764195122,
+      "contrastRatio": 4.218177914093764
+    }
+  },
+  "deposit_red": {
+    "value": "#ff2121",
+    "oklch": {
+      "lightness": 0.6377466956439956,
+      "chroma": 0.24781363419078395,
+      "hue": 28.089387663408957,
+      "contrastRatio": 3.8240892120051644
+    }
+  },
+  "dark_red": {
+    "value": "#8b2a1d",
+    "oklch": {
+      "lightness": 0.43213353281916844,
+      "chroma": 0.13392328618662874,
+      "hue": 30.748200350250954,
+      "contrastRatio": 8.58291591237865
+    }
+  },
+  "orange_button_pressed": {
+    "value": "#A82E00",
+    "oklch": {
+      "lightness": 0.48682284971364903,
+      "chroma": 0.1647959304205897,
+      "hue": 36.50555795076133,
+      "contrastRatio": 6.872257988826611
+    }
+  },
+  "iq": {
+    "value": "#e86e29",
+    "oklch": {
+      "lightness": 0.6741200805177584,
+      "chroma": 0.1700926619870328,
+      "hue": 46.02093301242115,
+      "contrastRatio": 3.1373475981896664
+    }
+  },
+  "orange": {
+    "value": "#ff9100",
+    "oklch": {
+      "lightness": 0.7586380178346553,
+      "chroma": 0.17681493972338772,
+      "hue": 60.637016537097736,
+      "contrastRatio": 2.2575402853901245
+    }
+  },
+  "deposit_orange": {
+    "value": "#e7a40a",
+    "oklch": {
+      "lightness": 0.7633259318361693,
+      "chroma": 0.15709736632705243,
+      "hue": 78.8906973678449,
+      "contrastRatio": 2.1621952093692514
+    }
+  },
+  "orange_practice": {
+    "value": "#fff8921a",
+    "oklch": {
+      "lightness": 0.9631659144500145,
+      "chroma": 0.12415270138795463,
+      "hue": 105.05283351266496,
+      "contrastRatio": 1.0998204803622065
+    }
+  },
+  "orange_accent": {
+    "value": "#ff7700",
+    "oklch": {
+      "lightness": 0.7186894262657283,
+      "chroma": 0.1917161286439642,
+      "hue": 49.37850054222872,
+      "contrastRatio": 2.6613506158260063
+    }
+  },
+  "dark_orange": {
+    "value": "#e86e29",
+    "oklch": {
+      "lightness": 0.6741200805177584,
+      "chroma": 0.1700926619870328,
+      "hue": 46.02093301242115,
+      "contrastRatio": 3.1373475981896664
+    }
+  },
+  "yellow": {
+    "value": "#ffff00",
+    "oklch": {
+      "lightness": 0.9679827203267873,
+      "chroma": 0.21100590772552355,
+      "hue": 109.76923207652123,
+      "contrastRatio": 1.0738392309265699
+    }
+  },
+  "gold": {
+    "value": "#e7a40a",
+    "oklch": {
+      "lightness": 0.7633259318361693,
+      "chroma": 0.15709736632705243,
+      "hue": 78.8906973678449,
+      "contrastRatio": 2.1621952093692514
+    }
+  },
+  "green": {
+    "value": "#2dab41",
+    "oklch": {
+      "lightness": 0.6515063900350831,
+      "chroma": 0.181784125850861,
+      "hue": 145.44363448628314,
+      "contrastRatio": 2.9944079684256417
+    }
+  },
+  "green_new": {
+    "value": "#55ab68",
+    "oklch": {
+      "lightness": 0.6702910589167975,
+      "chroma": 0.12930396388290025,
+      "hue": 149.0582483918039,
+      "contrastRatio": 2.8335040320555787
+    }
+  },
+  "bright_notify": {
+    "value": "#0085E8",
+    "oklch": {
+      "lightness": 0.61006608623739,
+      "chroma": 0.17700577699800593,
+      "hue": 250.9163240516425,
+      "contrastRatio": 3.8041751307979417
+    }
+  },
+  "light_blue": {
+    "value": "#0071F2",
+    "oklch": {
+      "lightness": 0.5743556513259855,
+      "chroma": 0.21208788633554937,
+      "hue": 257.9416890095374,
+      "contrastRatio": 4.521757509489518
+    }
+  },
+  "dark_blue": {
+    "value": "#171e31",
+    "oklch": {
+      "lightness": 0.23816474262780962,
+      "chroma": 0.03812980940572705,
+      "hue": 268.02611981560284,
+      "contrastRatio": 16.581244601670196
+    }
+  },
+  "left_menu_bg": {
+    "value": "#13192a",
+    "oklch": {
+      "lightness": 0.21654908330171493,
+      "chroma": 0.034823893272755924,
+      "hue": 268.5818559300722,
+      "contrastRatio": 17.497445907153118
+    }
+  },
+  "bg_trade": {
+    "value": "#111729",
+    "oklch": {
+      "lightness": 0.20862670544863235,
+      "chroma": 0.03703901631824281,
+      "hue": 269.0415820783031,
+      "contrastRatio": 17.820597242063076
+    }
+  },
+  "open_group_item_bg": {
+    "value": "#1C2439",
+    "oklch": {
+      "lightness": 0.26339091265696446,
+      "chroma": 0.04121108710743692,
+      "hue": 267.6224207063433,
+      "contrastRatio": 15.43201566480328
+    }
+  },
+  "bg_trade_panels": {
+    "value": "#171E32",
+    "oklch": {
+      "lightness": 0.23881157353385515,
+      "chroma": 0.039943892362388767,
+      "hue": 268.5922442827626,
+      "contrastRatio": 16.55891757307187
+    }
+  },
+  "nav_bg_95": {
+    "value": "#f2202635",
+    "oklch": {
+      "lightness": 0.6140387982964955,
+      "chroma": 0.23703885473770575,
+      "hue": 27.081114915603848,
+      "contrastRatio": 4.191581656528795
+    }
+  },
+  "bg_second_level": {
+    "value": "#171e32",
+    "oklch": {
+      "lightness": 0.23881157353385515,
+      "chroma": 0.039943892362388767,
+      "hue": 268.5922442827626,
+      "contrastRatio": 16.55891757307187
+    }
+  },
+  "closed_deals_dialog_bg": {
+    "value": "#171e31",
+    "oklch": {
+      "lightness": 0.23816474262780962,
+      "chroma": 0.03812980940572705,
+      "hue": 268.02611981560284,
+      "contrastRatio": 16.581244601670196
+    }
+  },
+  "bottom_bar": {
+    "value": "#171E32",
+    "oklch": {
+      "lightness": 0.23881157353385515,
+      "chroma": 0.039943892362388767,
+      "hue": 268.5922442827626,
+      "contrastRatio": 16.55891757307187
+    }
+  },
+  "hint_background": {
+    "value": "#b2111729",
+    "oklch": {
+      "lightness": 0.4861050246057888,
+      "chroma": 0.18998700128692206,
+      "hue": 27.138487559303314,
+      "contrastRatio": 7.0338860407961805
+    }
+  },
+  "bg_dialog": {
+    "value": "#232b3f",
+    "oklch": {
+      "lightness": 0.29108914207962583,
+      "chroma": 0.038456038733018234,
+      "hue": 267.2496767502129,
+      "contrastRatio": 14.105395349244287
+    }
+  },
+  "default_card_color": {
+    "value": "#e5293247",
+    "oklch": {
+      "lightness": 0.5963645466222075,
+      "chroma": 0.22018756446442744,
+      "hue": 25.274261544622846,
+      "contrastRatio": 4.4729998774190864
+    }
+  },
+  "sheet_dark": {
+    "value": "#232b3f",
+    "oklch": {
+      "lightness": 0.29108914207962583,
+      "chroma": 0.038456038733018234,
+      "hue": 267.2496767502129,
+      "contrastRatio": 14.105395349244287
+    }
+  },
+  "bottom_bar_selected": {
+    "value": "#343d57",
+    "oklch": {
+      "lightness": 0.3635759159545545,
+      "chroma": 0.046744354075293426,
+      "hue": 269.3127593792267,
+      "contrastRatio": 10.7629703891008
+    }
+  },
+  "grey_blue": {
+    "value": "#93a8c2",
+    "oklch": {
+      "lightness": 0.7242548619699412,
+      "chroma": 0.044647106968308835,
+      "hue": 253.88219669467532,
+      "contrastRatio": 2.4360055804035237
+    }
+  },
+  "grey_blur": {
+    "value": "#93a8c2",
+    "oklch": {
+      "lightness": 0.7242548619699412,
+      "chroma": 0.044647106968308835,
+      "hue": 253.88219669467532,
+      "contrastRatio": 2.4360055804035237
+    }
+  },
+  "dark_gray": {
+    "value": "#93A8C2",
+    "oklch": {
+      "lightness": 0.7242548619699412,
+      "chroma": 0.044647106968308835,
+      "hue": 253.88219669467532,
+      "contrastRatio": 2.4360055804035237
+    }
+  },
+  "slate_grey": {
+    "value": "#6b758e",
+    "oklch": {
+      "lightness": 0.5632268221490448,
+      "chroma": 0.04062473395212968,
+      "hue": 267.95563474586146,
+      "contrastRatio": 4.604985798791707
+    }
+  },
+  "dark_blur": {
+    "value": "#181d29",
+    "oklch": {
+      "lightness": 0.2314894227653542,
+      "chroma": 0.024512752033808472,
+      "hue": 266.9463736403968,
+      "contrastRatio": 16.84577959602704
+    }
+  },
+  "purple": {
+    "value": "#78289a",
+    "oklch": {
+      "lightness": 0.4512013475079353,
+      "chroma": 0.18098410973647996,
+      "hue": 313.61899381132366,
+      "contrastRatio": 8.175184256980355
+    }
+  },
+  "white": {
+    "value": "#ffffff",
+    "oklch": {
+      "lightness": 0.9999999934735462,
+      "chroma": 3.727399553519285e-8,
+      "hue": null,
+      "contrastRatio": 1
+    }
+  },
+  "withdraw_divider": {
+    "value": "#e3e4e6",
+    "oklch": {
+      "lightness": 0.9186701212687419,
+      "chroma": 0.002911217832962026,
+      "hue": 264.5413258148815,
+      "contrastRatio": 1.2722512260236991
+    }
+  },
+  "black": {
+    "value": "#000000",
+    "oklch": {
+      "lightness": 0,
+      "chroma": 0,
+      "hue": null,
+      "contrastRatio": 21
+    }
+  },
+  "deposit_dark_grey": {
+    "value": "#6a6e71",
+    "oklch": {
+      "lightness": 0.535756861286688,
+      "chroma": 0.006796042787015673,
+      "hue": 239.9122006535566,
+      "contrastRatio": 5.144968952493052
+    }
+  },
+  "deposit_grey_100": {
+    "value": "#93A8C2",
+    "oklch": {
+      "lightness": 0.7242548619699412,
+      "chroma": 0.044647106968308835,
+      "hue": 253.88219669467532,
+      "contrastRatio": 2.4360055804035237
+    }
+  },
+  "withdraw_light_grey": {
+    "value": "#9b9b9b",
+    "oklch": {
+      "lightness": 0.6894878869252777,
+      "chroma": 2.569996859158094e-8,
+      "hue": null,
+      "contrastRatio": 2.779409408331677
+    }
+  },
+  "withdraw_grey_text": {
+    "value": "#3f4454",
+    "oklch": {
+      "lightness": 0.38847000738577175,
+      "chroma": 0.027999126801580433,
+      "hue": 271.44382200030844,
+      "contrastRatio": 9.694306843551173
+    }
+  },
+  "deposit_complete_grey": {
+    "value": "#434444",
+    "oklch": {
+      "lightness": 0.3856999289568993,
+      "chroma": 0.0013409365235348223,
+      "hue": 197.10114312583133,
+      "contrastRatio": 9.77208585409873
+    }
+  },
+  "bg_put_arrow": {
+    "value": "#CD442E",
+    "oklch": {
+      "lightness": 0.5775919658610563,
+      "chroma": 0.17704613409008785,
+      "hue": 31.752792947031537,
+      "contrastRatio": 4.706275298659439
+    }
+  },
+  "bg_call_arrow": {
+    "value": "#2AA03D",
+    "oklch": {
+      "lightness": 0.620526214705873,
+      "chroma": 0.172374282151951,
+      "hue": 145.5153757621061,
+      "contrastRatio": 3.390293054494062
+    }
+  },
+  "feed_bch_etc_neo": {
+    "value": "#43bc68",
+    "oklch": {
+      "lightness": 0.707639767489089,
+      "chroma": 0.16185201902557386,
+      "hue": 150.12586159279942,
+      "contrastRatio": 2.4328528310466906
+    }
+  },
+  "feed_btc": {
+    "value": "#f7931a",
+    "oklch": {
+      "lightness": 0.7523487681322155,
+      "chroma": 0.16627138628964772,
+      "hue": 62.58823736668927,
+      "contrastRatio": 2.296780076060436
+    }
+  },
+  "feed_otn": {
+    "value": "#09c4a4",
+    "oklch": {
+      "lightness": 0.7329491365013916,
+      "chroma": 0.13694003033426377,
+      "hue": 175.20611452993307,
+      "contrastRatio": 2.223715601746727
+    }
+  },
+  "feed_dash_xrp_qtm": {
+    "value": "#1276a8",
+    "oklch": {
+      "lightness": 0.5377608719247489,
+      "chroma": 0.1140269584217129,
+      "hue": 238.06324206802734,
+      "contrastRatio": 5.0208921166344815
+    }
+  },
+  "primary_button_text_enabled": {
+    "value": "#ffffff",
+    "oklch": {
+      "lightness": 0.9999999934735462,
+      "chroma": 3.727399553519285e-8,
+      "hue": null,
+      "contrastRatio": 1
+    }
+  },
+  "bg_secondary_button": {
+    "value": "#364156",
+    "oklch": {
+      "lightness": 0.3745220989916424,
+      "chroma": 0.039055809205820025,
+      "hue": 263.09071478168204,
+      "contrastRatio": 10.25716279663802
+    }
+  },
+  "withdraw_text_primary": {
+    "value": "#000000",
+    "oklch": {
+      "lightness": 0,
+      "chroma": 0,
+      "hue": null,
+      "contrastRatio": 21
+    }
+  }
+}
